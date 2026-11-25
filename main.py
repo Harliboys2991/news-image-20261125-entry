@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Entry program for make.fun "Sum up 25 November's world news in one image"
-(news-image-20261125).
+"""Submitted program for the make.fun bounty "Sum up 25 November's world
+news in one image" (news-image-20261125).
 
-The front page was drawn beforehand with draw_news.py and ships in this
-repository as entry.png. This program copies it to the output directory
-the grader reads. No network, no randomness, no clock: every run writes
-exactly the same bytes.
+draw_news.py rendered the front page ahead of time; it ships here as
+entry.png. All this program does is copy that file into the output
+directory the grader reads. No network, no randomness, no clock, so
+every run writes exactly the same bytes.
 """
 import os
 import shutil
